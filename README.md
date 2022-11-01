@@ -1,65 +1,29 @@
-# 3D Projection Engine
+# 3D Game Engine 
 
-## Proposal Structure:
-The proposal will include the following sections:
-* **Project Title:** 3D Projection Engine 
-* **Description:** This program uses self-implemented graphic library to
-  1. projects a 3D illusion into a 2D plane ([checkpoint 1](#checkpoint-1))
-  2. by drawing inclined or declined lines from  coordinates or vertices in a certain angle from a perspective point ([checkpoint 2](#checkpoint-2))
-  3. to make a 3D object for detailed method please read the detail [below](#detailed-description). ([checkpoint 3](#checkpoint-3))
-* **Team Members:** 
-  * Phobphoomin Siriboon (64011548)
-  * Mahnun Saratunti (64011456)
+3D Software renderer
 
 
-## Detailed Description:
+Video #1 : https://youtu.be/UZcfoc_nom4
 
-Please read the simplified description above first.
+Video #2 : https://youtu.be/NqZ_iVL1ttY
 
-### Project Structure
+Video #3 : https://youtu.be/A-3T2OvULSc
 
-This program consists mainly of 2 parts:
-* [3D engine](#3d-engine)
-* [graphic library](#graphic-library)
+Video #4 : https://youtu.be/pyJtDDY8J-A
 
-#### 3D Engine
+Video #5 : https://youtu.be/roA951uuY6E
 
-##### Checkpoint 1
-We first need to creates a 'blank' window application from win32 api,directx or any other optional libary (in our case, our own simple library) in order to show us the output/result and serve us as a GUI for example there is a community made external libary called olcgameengine window which is made up of 6base number 6x6 array in which each array is translated from a coordinate(x,y) with the following formula: 
-array[i] = y *(i in range (x,y)) + x 
-
-##### Checkpoint 2
-
-Next we need functions maybe from graphic libary that has a mathematics formula that receives our parameter/input and logic to translate the variable and calculate the "object" and  "projection" output for us. In additional, we can in fact create a simple graphic libary ourselves. For more detail about the method please read the documentation provided [below](#documentationandreference).
-
-##### Checkpoint 3
-
-Finally we can observe the outcome from our designated "perspective", also we can make the object dynamic by constantly updating its position precisely for instance, using "matrix rotation" and mathematics.
-* Room for improvement \
-Additionally a camera can be made by constantly updating our "perspective" upon WASD input thus ray-casting and ray-tracing is possible to make up a viable first person game also we can add texture to the object or import a texture by reading a FILE which contains our desired parameter(input) in a specified format (example, .obj file).
-
-#### Graphic Library
-
-We will implement a simple terminal graphic library to display the projected 3D illusion onto the terminal. This graphic library is cross platform  as long as the terminal has support for unicode. The library will be included in this repo, meaning the 3D image projection can be displayed without the need of having to rely on any external graphic library. 
-
-## Finalized Project Output Sample:
-![](images/final.jpg)
-
-## Documentation and Reference:
-* **ENGINE Example of a 2D Plane Window Application.** 
-![](images/2dgameengineexample.png)
-![](images/p2.png)
-* **OBJECT 3D Projection method on a 2D plane.**
-![](images/3dprojection.png)
-
-![](images/perspective.png)  \
-P are vertices of the object
-* **PERSPECTIVE Matrix relation with the object.**
-![](images/objectandperspective%20relation.png)
-*  **MATRIX ROTATION relation with object movement method.**
-![](images/matrix%20rotation.jpg)
+Video #6 : https://youtu.be/K9Qz2pbkDOE
 
 
-## Todo
+🔭 Welcome to Build Succeeded! Build Succeeded is a Youtube channel for game development and other programming videos and tutorials:
+https://www.youtube.com/channel/UCzFsuuVeM3OoEv4V3b8h75g
 
-- Make the program runnable using Git Bash from Windows machine
+💬 Do you want to learn game development using C++ and Direct2D / Direct3D together? Join my FREE Discord server:
+https://discord.gg/Rt6uTeC
+
+📫 Facebook: https://www.facebook.com/GameBuildSucceeded
+
+👯 Twitter: https://twitter.com/SucceededBuild
+
+🤔 Do you want to support me? https://www.patreon.com/BuildSucceeded
