@@ -1,4 +1,4 @@
-# 3D Projection Engine
+# 3D Projection Engine.
 
 ## Proposal Structure:
 The proposal will include the following sections:
